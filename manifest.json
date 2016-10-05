@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Page Redder",
+    "description": "Make the current page red",
+    "version": "3.1.0",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab",
+        "<all_urls>"
+    ],
+    "devtools_page": "devtools.html",
+    "short_name": "Redder"
+}
